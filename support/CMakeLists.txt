@@ -34,6 +34,7 @@ set(MODULES_ARTIFACT_GENERATORS
 set(SYSTEMD_UNITS
   mender-updated.service
   mender-authd.service
+  mender-client-data-dir.service
 )
 
 install(PROGRAMS ${INVENTORYSCRIPTS}
